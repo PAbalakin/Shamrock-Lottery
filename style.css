@@ -1,6 +1,7 @@
 html {
   height: 100%;
   width: 100%;
+    background-image: linear-gradient(to bottom right, #50C878, 	#228B22, #50C878);
 }
 mark {
   background-image: linear-gradient(to bottom right, #ffd700, #d4af37);
@@ -99,13 +100,14 @@ h1 {
   color:white;
 }
 h2 {
-	font-size: .9em;
+	font-size: 1.4em;
 	line-height: 1.9em;
 	color: white;
 	margin: 0;
 	margin-bottom: .6em;
 	text-transform: uppercase;
 	font-weight: normal;
+    background-color: #009e60;
 }
 p {
 	font-size: 1em;
