@@ -1,0 +1,197 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+mark {
+  background-image: linear-gradient(to bottom right, #ffd700, #d4af37);
+  color:white;
+}
+
+img {
+  opacity: 1;
+  display: block;
+  transition: .5s ease;
+  backface-visibility: hidden;
+    border-radius: 8px;
+  height:"250px";
+   width:"100px";
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #009e60;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.hero {
+  /* Sizing */
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white; 
+  background-image: url('https://www.history.com/.image/ar_16:9%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cg_faces:center%2Cq_auto:good%2Cw_768/MTcxMDYxMzMxODU0NjMyMTk3/shamrock-gettyimages-914422286.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.hero h1 {
+  /* Text styles */
+  font-size: 5em;
+  background-color:#DC143C;
+  /* Margins */
+  font-family: 'Sonsie One', cursive;
+
+  margin:0 auto 0.5em auto;
+}
+.hero h2 {
+  /* Text styles */
+  font-size: 2em;
+  background-color:#4cbb17;
+  /* Margins */
+  font-family: 'Carter One', cursive;
+  margin:0 auto 0.5em auto;
+}
+
+body {
+	font-size: 14px;
+	line-height: 1.8; 
+	margin: 0px;
+	min-width: 790px;
+}
+img {
+	border: 0;
+	vertical-align: bottom;
+}
+a {
+	text-decoration: none;
+}
+a:hover {
+	color: #faa61a;
+}
+h1 {
+  background-image: linear-gradient(to bottom right, #009e60, #4cbb17);
+  color:white;
+}
+h2 {
+	font-size: .9em;
+	line-height: 1.9em;
+	color: white;
+	margin: 0;
+	margin-bottom: .6em;
+	text-transform: uppercase;
+	font-weight: normal;
+}
+p {
+	font-size: 1em;
+	line-height: 1.9em;
+	margin: 0;
+	margin-bottom: .7em;
+	text-align: left;
+}
+.contentWrapper {
+	width: 750px;
+	padding: 0 20px;
+	margin: 0 auto;
+	position: relative;
+  
+}
+header {
+	font-size: .9em;
+	color: #fff;
+	background: #009e60 url(../img/camera.jpg);
+	background-size: cover;
+	background-position: center;
+	overflow: hidden;
+	margin-bottom: 50px;
+  
+}
+header .contentWrapper {
+	padding: 115px 0 50px;
+}
+header a {
+	color: #fff;
+}
+header a:hover {
+	color: #faa61a;
+}
+#fronionLogo {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+footer {
+	font-size: .7em;
+	text-transform: uppercase;
+	margin: 50px auto;
+	color: #009e60;
+}
+#signUp {
+	margin-top: 10px;
+	padding: 0 20px 15px 20px;
+	border: 1px solid #009e60;
+}
+#signUp legend {
+	font-size: 2em;
+	font-weight: 200;
+	padding: 0 .2em;
+}
+#signUp label {
+	display: block;
+	padding-top: 1em;
+}
+#signUp label:first-of-type {
+	margin-top: -.9em;
+}
+#nameLabel {
+	margin-top: -1em;
+}
+#submit, #clearCookie {
+	display: block;
+	font-size: 1em;
+	color: #FFF;
+	text-transform: uppercase;
+	background: #a2a50d;
+	padding: .8em 1em .7em;
+	border: 0;
+	border-bottom: 3px solid #7d820c;
+	margin-top: 15px;
+}
+.textfield {
+	font-family: "Courier New", Courier, monospace;
+	font-size: 14px;
+	padding: 7px;
+	color: white;
+  background-image: linear-gradient(to bottom right, #009e60, #4cbb17);
+	border: 1px solid #bbb;
+	width: 97%;
+  
+}
+.textfield:focus {
+	background: #FBF8D2;
+}
